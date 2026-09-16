@@ -2,7 +2,10 @@
   "mcpServers": {
     "socialhive": {
       "type": "http",
-      "url": "https://platform.socialhive.pro/api/mcp"
+      "url": "https://platform.socialhive.pro/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_key}"
+      }
     }
   }
 }
