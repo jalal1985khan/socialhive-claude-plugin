@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "socialhive-social-publishing",
+  "displayName": "SocialHive Social Publishing",
+  "version": "1.0.0",
+  "description": "Draft, schedule, automate, and publish content across LinkedIn, X, YouTube, Instagram, Facebook, TikTok, and Pinterest. Inspect analytics and generate on-brand copy.",
+  "author": {
+    "name": "SocialHive",
+    "url": "https://socialhive.pro"
+  },
+  "homepage": "https://socialhive.pro",
+  "repository": "https://github.com/jalal1985khan/socialhive-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "social media",
+    "publishing",
+    "scheduling",
+    "linkedin",
+    "twitter",
+    "youtube",
+    "instagram",
+    "tiktok",
+    "pinterest",
+    "marketing",
+    "analytics",
+    "mcp"
+  ],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "SocialHive API Key",
+      "description": "Your SocialHive API key from https://platform.socialhive.pro/settings/api-keys",
+      "sensitive": true,
+      "required": false
+    }
+  }
+}

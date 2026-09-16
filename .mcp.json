@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "socialhive": {
+      "type": "http",
+      "url": "https://platform.socialhive.pro/api/mcp"
+    }
+  }
+}
