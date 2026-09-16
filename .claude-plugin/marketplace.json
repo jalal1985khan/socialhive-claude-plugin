@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "socialhive",
+  "description": "Official SocialHive plugins for publishing and automating social media content",
+  "owner": {
+    "name": "SocialHive",
+    "email": "support@socialhive.pro"
+  },
+  "plugins": [
+    {
+      "name": "socialhive-social-publishing",
+      "description": "Draft, schedule, automate, and publish content across LinkedIn, X, YouTube, Instagram, Facebook, TikTok, and Pinterest. Inspect analytics and generate on-brand copy.",
+      "version": "1.0.0",
+      "author": {
+        "name": "SocialHive"
+      },
+      "source": "./",
+      "category": "social",
+      "homepage": "https://socialhive.pro",
+      "repository": "https://github.com/jalal1985khan/socialhive-claude-plugin"
+    }
+  ]
+}
