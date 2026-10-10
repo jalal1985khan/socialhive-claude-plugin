@@ -33,6 +33,5 @@
       "required": true
     }
   },
-  "icon": "./.claude-plugin/icon.png",
   "privacyPolicyUrl": "https://www.socialhive.pro/privacy"
 }
